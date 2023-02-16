@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div>
+      <Loading/>
       <Routes>
         <Route path='/' element={<Loading/>}/>
       </Routes>
