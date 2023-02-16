@@ -1,0 +1,14 @@
+@font-face{
+  font-family: my8bit;
+  src: url(/src/fonts/PressStart2P-Regular.ttf);
+}
+:root {
+  font-family: my8bit, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #ff9248;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

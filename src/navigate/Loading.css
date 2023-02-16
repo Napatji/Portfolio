@@ -1,0 +1,157 @@
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .loading-bar{
+    background-color: white;
+    height: 75px;
+    width: 615px;
+    border-radius: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+  
+  @keyframes fade-in {
+    from{
+        opacity: 0;
+    }   
+    to{
+        opacity: 100;
+    }
+  }
+
+  @keyframes fade-out {
+    from{
+        opacity: 100;
+    }   
+    to{
+        opacity: 0;
+    }
+  }
+
+  .loading-bar-start{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    border-radius: 35px 0px 0px 35px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid1{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid2{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid3{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid4{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid5{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  .loading-bar-mid6{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid7{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-mid8{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .loading-bar-end{
+    background: #51BD3F;
+    margin: 10px;
+    height: 65px;
+    width: 51px;
+    border-radius: 0px 35px 35px 0px;
+    animation-name: fade-in;
+    animation-duration: 0.1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
