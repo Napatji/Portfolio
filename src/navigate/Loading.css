@@ -1,9 +1,13 @@
-  .App {
+    .App {
+    background-color: #ff9248;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
   }
   
   .loading-bar{

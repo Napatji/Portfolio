@@ -1,0 +1,42 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1{
+    font-family: inherit;
+}
+
+.start{
+    font-family: inherit;
+    font-size: medium;
+    color: inherit;
+    background: #FF6700;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 95px;
+    border-color: #FFFFFF;
+    width: 20vw;
+    width: 20dvw;
+    height: 10vh;
+    height: 10dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start:hover{
+    color: #FF6700;
+    background: #FFFFFF;
+    border-radius: 10dvh/2;
+    border-color: #FF6700;
+}
+
+.start:active{
+    color: #FFFFFF;
+    background: #FF6700;
+    border-radius: 95px;
+    border-color: #FFFFFF;
+}
