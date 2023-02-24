@@ -19,13 +19,13 @@ function App() {
   }, [])
 
   return (
-    <div className='App'>
+    <div className='main'>
       { loading?
         <Loading/>
         :
         <div className="welcome">
           <h1>- Welcome! -</h1>
-          <button className='start' onClick={()=>{navigate('/Portfolio/profile')}}>
+          <button className='start' onClick={()=>{navigate('/Portfolio/home')}}>
             Start
           </button>
         </div>

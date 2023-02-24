@@ -5,6 +5,7 @@ import {
       RouterProvider,
       BrowserRouter } from 'react-router-dom'
 import App from './App'
+import Home from './stage/Home'
 import Profile from './navigate/Profile'
 import Achievement from './navigate/Achievement'
 import Contact from './navigate/Contact'
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
   {
     path: "/Portfolio/",
     element: <App/>,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Portfolio/home",
+    element: <Home/>,
     errorElement: <ErrorPage />,
   },
   {

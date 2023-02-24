@@ -1,3 +1,15 @@
+.main {
+    background-color: #ff9248;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+}
+
 .welcome{
     display: flex;
     flex-direction: column;
@@ -5,38 +17,73 @@
     align-items: center;
 }
 
-.welcome h1{
-    font-family: inherit;
+
+@media only screen and (max-width: 1600px) {
+    .start{
+        font-family: inherit;
+        font-size: large;
+        color: inherit;
+        background: #FF6700;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 95px;
+        border-color: #FFFFFF;
+        width: 300px;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.start{
+@media screen and (max-width: 1024px) {
+    .start{
+        font-family: inherit;
+        font-size: medium;
+        color: inherit;
+        background: #FF6700;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 95px;
+        border-color: #FFFFFF;
+        width: 250px;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .start{
+        font-family: inherit;
+        font-size: medium;
+        color: inherit;
+        background: #FF6700;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 95px;
+        border-color: #FFFFFF;
+        width: 200px;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.welcome h1{
     font-family: inherit;
-    font-size: medium;
-    color: inherit;
-    background: #FF6700;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 95px;
-    border-color: #FFFFFF;
-    width: 20vw;
-    width: 20dvw;
-    height: 10vh;
-    height: 10dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .start:hover{
     color: #FF6700;
     background: #FFFFFF;
-    border-radius: 10dvh/2;
     border-color: #FF6700;
 }
 
 .start:active{
     color: #FFFFFF;
     background: #FF6700;
-    border-radius: 95px;
     border-color: #FFFFFF;
 }
