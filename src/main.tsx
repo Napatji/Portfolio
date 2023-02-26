@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Portfolio/home",
-    element: <Home/>,
+    element: <Home width={800} height={600}/>,
     errorElement: <ErrorPage />,
   },
   {
